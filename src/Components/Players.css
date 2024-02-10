@@ -1,0 +1,96 @@
+.title {
+  font-weight: bold;
+  font-size: 3.8rem;
+
+}
+
+.title0 {
+color: rgb(82, 39, 39);
+}
+.title1 {
+
+  color:rgb(22, 122, 8);
+}
+.title2 {
+  color: #663d3d;
+}
+
+
+.tool {
+  color: rgb(6, 54, 82);
+}
+
+
+.board {
+
+  width: 50%;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  display: inline-block;
+}
+
+.row1,
+.row2,
+.row3 {
+  display: flex;
+}
+
+.boxes {
+  width:70px;
+  flex: 1;
+  height: 100px;
+  border: 1px solid #ccc;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 24px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.boxes:hover {
+  background-color: #f9f9f9;
+}
+
+.resetbtn {
+  background-color: rgb(82, 39, 39);
+  color: rgb(255, 255, 255);
+  border: none;
+  padding: 10px;
+  border-radius: 0 0 8px 8px;
+  cursor: pointer;
+  display: block;
+  width: 100%;
+  font-size: 20px;
+  transition: background-color 0.3s ease;
+}
+
+.resetbtn:hover {
+  background-color: #663d3d;;
+}
+
+
+div.boxes img {
+  margin: 10px;
+  width:3rem;
+}
+
+
+.currentplayer {
+  width: 50%;
+  margin: auto;
+  background-color: rgb(255, 255, 255);
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  text-align: center;
+}
+
+.player {
+  font-size: 18px;
+  color: rgb(82, 39, 39);
+  margin: 0;
+}
+
